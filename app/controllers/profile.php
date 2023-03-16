@@ -1,0 +1,15 @@
+<?php
+class Profile extends Controller{
+
+    public function index(){
+
+        $user = $this->load_model("User");
+		$user_data=$user->check_login();
+        if(is_object($user_data)){
+            $data['user_data']=$user_data;
+        }
+        $data['Page_title']="Profile";
+       $this-> view('profile',$data);
+    }
+}
+?>
