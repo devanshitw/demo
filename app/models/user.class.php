@@ -237,7 +237,7 @@ Class User
 			}
 
 			if($redirect){
-				// $_SESSION['intended_url'] = FULL_URL; 
+				// tyeyeyyeyeyyrtte
 				header("Location: " . ROOT . "login");
 				die;
 			}

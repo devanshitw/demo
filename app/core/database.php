@@ -10,7 +10,7 @@ Class Database
  
 			$string = DB_TYPE . ":host=". DB_HOST .";dbname=". DB_NAME;
 			self::$con = new PDO($string,DB_USER,DB_PASS);
-
+gghthy
 		}catch (PDOException $e){
 
 			die($e->getMessage());
