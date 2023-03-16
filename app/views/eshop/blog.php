@@ -247,7 +247,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title"><a href="#">Bags</a></h4>
-								</div>
+								</div>weerwef
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">

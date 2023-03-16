@@ -5,7 +5,7 @@ function show($data){
     echo '</pre>';
 }
 function check_error()
-{
+{wer3te
 
 	if(isset($_SESSION['error']) && $_SESSION['error'] != "")
 	{

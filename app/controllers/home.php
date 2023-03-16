@@ -10,6 +10,6 @@ class Home extends Controller{
         }
         $data['Page_title']="Home";
        $this-> view('index',$data);
-    }
+    }wetwefsfdv
 }
 ?>

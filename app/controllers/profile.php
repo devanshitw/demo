@@ -9,7 +9,7 @@ class Profile extends Controller{
             $data['user_data']=$user_data;
         }
         $data['Page_title']="Profile";
-       $this-> view('profile',$data);
+       $this-> view('profile',$data);werwfdsfc
     }
 }
 ?>
